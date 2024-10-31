@@ -1,49 +1,117 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
-    <title>Yassir Taher's Detailed CV</title>
+    <title>Portfolio Ingénieur Mécanique</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            display: flex;
+            flex-direction: row;
+            margin: 0;
+        }
+        .sidebar {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            bottom: 20px;
+            height: calc(100vh - 80px);
+            overflow: auto;
+            width: 300px;
+            background-color: #fff;
+            box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+            padding: 20px 20px 40px 20px;
+            text-align: center;
+            border-radius: 15px;
+            margin-bottom: 20px;
+            border-radius: 15px;
+            width: 300px;
+            padding: 20px;
+            text-align: center;
+            border-radius: 15px;
+            margin-bottom: 20px;
+        }
+        .sidebar img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+        .content {
+            margin-left: 360px;
+            padding: 20px;
+        }
+        .card {
+            background-color: #fff;
+            border-radius: 15px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        h2 {
+            margin-top: 0;
+        }
+    </style>
 </head>
 <body>
-    <div class="container">
-        <div class="profile-card">
-            <img src="img/profile.jpg" alt="Profile Picture" class="profile-img-large">
-            <h1>Yassir TAHER</h1>
-            <p>Structural Integrity Engineer</p>
+    <div class="sidebar">
+        <img src="photo.jpg" alt="Photo d'identité">
+        <h1>Nom Prénom</h1>
+        <p>Ingénieur en Mécanique</p>
+    </div>
+    <div class="content">
+        <div class="card">
+            <h2>Expérience</h2>
+            <ul>
+                <li><strong>Entreprise A</strong> - Ingénieur en Mécanique (2020 - Présent)</li>
+                <li><strong>Entreprise B</strong> - Stage en Conception Mécanique (2018 - 2019)</li>
+            </ul>
         </div>
-
-        <div class="cv-sections">
-            <div class="card">
-                <h2>Experience</h2>
-                <p><strong>SAIPEM | Structural Integrity Engineer/ Lead</strong><br>
-                Sept 2018 – Present<br>
-                Lead and manage the ECA project team, oversee structural integrity, and provide technical support for other disciplines.</p>
-            </div>
-
-            <div class="card">
-                <h2>Education</h2>
-                <p><strong>ARTS ET METIERS INSTITUTE OF TECHNOLOGY Metz, FRANCE</strong><br>
-                Master of Research | Mechanics Materials Structures and Processes, Sept 2018<br>
-                Thesis: Identification of carbon steel constitutive behavior for applications in fracture mechanics.</p>
-            </div>
-
-            <div class="card">
-                <h2>Projects</h2>
-                <div class="project-card">
-                    <h3>AGOGO Full Field Project</h3>
-                    <p>Role: Structural Integrity Engineer, Sept 2023 – Present<br>
-                    Responsibilities include overseeing structural analysis and ensuring project safety standards.</p>
-                </div>
-                <div class="project-card">
-                    <h3>Buzios 7 Project</h3>
-                    <p>Role: Structural Integrity Lead, May 2022 – Present<br>
-                    Leading integrity assessments and defining optimal acceptance criteria for pipelines.</p>
-                </div>
-            </div>
+        <div class="card">
+            <h2>Projets</h2>
+            <ul>
+                <li><strong>Projet A:</strong> Conception d'un système mécanique pour...</li>
+                <li><strong>Projet B:</strong> Optimisation d'une chaîne de production...</li>
+                <li><strong>Analyse de la Rupture des Pipelines:</strong> Étude de la résistance à la fracture des pipelines transportant des hydrocarbures pour améliorer la sécurité. <em>Mots-clés:</em> mécanique de la rupture, pipeline, sécurité.</li>
+                <li><strong>Réparation des Défauts de Surface des Pipelines:</strong> Conception de solutions de réparation pour des défauts observés sur les pipelines, en utilisant des simulations par éléments finis. <em>Mots-clés:</em> réparation, pipeline, éléments finis.</li>
+                <li><strong>Optimisation des Soudures sur les Pipelines:</strong> Étude des techniques de soudure et optimisation des paramètres pour améliorer la résistance à la rupture. <em>Mots-clés:</em> soudure, mécanique de la rupture, optimisation.</li>
+                <li><strong>Simulation de la Propagation de Fissures:</strong> Simulation numérique pour prédire la propagation de fissures dans les pipelines sous haute pression. <em>Mots-clés:</em> fissure, simulation, haute pression.</li>
+                <li><strong>Évaluation de la Fiabilité des Pipelines:</strong> Analyse probabiliste pour évaluer la fiabilité et la durée de vie des pipelines soumis à diverses conditions de stress. <em>Mots-clés:</em> fiabilité, stress, durée de vie.</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h2>Education</h2>
+            <ul>
+                <li><strong>École d'Ingénieurs</strong> - Diplôme en Mécanique (2015 - 2020)</li>
+                <li><strong>Lycée Technique</strong> - Bac S (2012 - 2015)</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h2>Compétences</h2>
+            <ul>
+                <li>Conception assistée par ordinateur (CAO)</li>
+                <li>Analyse par éléments finis (FEA)</li>
+                <li>SolidWorks, AutoCAD, MATLAB</li>
+                <li>Gestion de projet</li>
+            </ul>
+            
+        </div>
+        <div class="card">
+            <h2>Compétences</h2>
+            <ul>
+                <li>Conception assistée par ordinateur (CAO)</li>
+                <li>Analyse par éléments finis (FEA)</li>
+                <li>SolidWorks, AutoCAD, MATLAB</li>
+                <li>Gestion de projet</li>
+            </ul>
+            <button>salut</button>
         </div>
     </div>
-    <script src="js/main.js"></script>
+
 </body>
 </html>
